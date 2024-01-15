@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: scroll;
+}
+
+.firstDiv {
+  height: "800px";
+  overflow-y: "scroll";
+}
+
+.completeBg {
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: brown;
+}
+.completeBg1 {
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: rgb(21, 148, 212);
+}
+.completeBg2 {
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: rgb(214, 204, 18);
+}
+
+.borderImg {
+  border: 3px solid yellow;
+}
+.borderRed {
+  border: 3px solid rgb(255, 0, 170);
+}
+.borderGreen {
+  border: 3px solid rgb(4, 165, 31);
+}
+.textColor {
+  font-weight: 500;
+}
